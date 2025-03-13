@@ -70,11 +70,6 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-10">
           {/* Left Side - Content */}
           <div className="w-full md:w-7/12 z-10 order-2 md:order-1">
-            {/* Greeting Tag */}
-            <div className="inline-block mb-4 px-4 py-2 bg-[#14213D]/10 rounded-full">
-              <span className="text-sm font-medium text-[#14213D]">👋 Hello, I'm</span>
-            </div>
-            
             {/* Name with animated border */}
             <div className="relative inline-block mb-6">
               <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#14213D]">
@@ -162,7 +157,7 @@ const Hero = () => {
                       />
                     </svg>
                   </div>
-                  <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 bg-[#14213D] text-[#efebe0] text-xs py-1 px-2 rounded opacity-0 transition-opacity group-hover:opacity-100">Next.js</div>
+                  <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 bg-[#14213D] text-[#efebe0] text-xs py-1 px-2 rounded opacity-0 transition-opacity group-hover:opacity-100">Hono</div>
                 </div>
                 
                 <div className="tech-icon group relative opacity-0">
@@ -180,6 +175,23 @@ const Hero = () => {
                     </svg>
                   </div>
                   <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 bg-[#14213D] text-[#efebe0] text-xs py-1 px-2 rounded opacity-0 transition-opacity group-hover:opacity-100">Node.js</div>
+                </div>
+
+                <div className="tech-icon group relative opacity-0">
+                  <div className="w-10 h-10 bg-[#14213D] rounded shadow-md flex items-center justify-center transform transition-all duration-300 group-hover:rotate-6 group-hover:-translate-y-1 group-hover:shadow-lg">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="#efebe0"
+                        d="M13.74 4.23c-.84-1-1.57-2-1.71-2.22H12c-.14.21-.87 1.22-1.71 2.22c-7.2 9.19 1.14 15.39 1.14 15.39l.07.05c.06.95.22 2.33.22 2.33h.62s.15-1.37.21-2.33l.07-.06s8.32-6.19 1.14-15.38M12 19.48a1.77 1.77 0 0 1-.64-.09c0-.03.01-.04.01-.06c.06-.15.83-2.31.83-2.31c.01-.03.03-.08.06-.08c.03 0 .05.05.05.08c0 0 .77 2.15.84 2.3c.01.02.01.03.01.06c-.19.07-.45.1-.66.1"
+                      />
+                    </svg>
+                  </div>
+                  <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 bg-[#14213D] text-[#efebe0] text-xs py-1 px-2 rounded opacity-0 transition-opacity group-hover:opacity-100">MongoDB</div>
                 </div>
               </div>
             </div>
